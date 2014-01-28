@@ -1,0 +1,8 @@
+<?php 
+
+function authenticate_oauth()
+{
+	// Redirect user to login end point
+}
+
+?>

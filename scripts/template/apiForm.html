@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title></title>
+</head>
+
+<body>
+  <form class="container" id="exportForm" name="exportForm" style=
+  "display: block;">
+  <p><span>Step 1: Create Export</span></p>
+
+  <div>
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Value</th>
+            <th>Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          <div class="form-group">
+            <label for="jsonBodyInput">Json Request Body</label>
+        </div>
+    </td>
+
+    <td>
+      <div class="form-group">
+        <textarea class="form-control" id="jsonBodyInput" placeholder=
+        "Json Request Body" rows="10">
+    </textarea>
+</div>
+</td>
+
+<td>text</td>
+
+<td></td>
+</tr>
+
+<tr>
+    <td><label>UserName</label></td>
+
+    <td><input name="username" class="form-control" placeholder="adeline.wong@oracle.com"></td>
+        <td>string</td>
+        <td>API user name and password</td>
+    </tr>
+
+    <tr>
+        <td><label>Password</label></td>
+        <td><input name="password" class="form-control" type="password"></td>
+        <td>string</td>
+        <td>API user name and password</td>
+    </tr>
+</tbody>
+</table>
+</div><input id="btnSubmit" type="submit" value="Try it!"> <a class="clear-results" href=
+"#" style="">Clear Results</a>
+</form>
+
+<div class="container" id="divApiResultContainer">
+<h4 class="error">Error</h4>
+<pre>
+</pre>
+<pre>
+</pre>
+</div>
+<div class="container" id="divResultContainer">
+<h4></h4>
+<pre></pre>
+</div>
+</body>
+</html>
